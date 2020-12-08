@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://medium.com/media/606a5d3bbc1a4c14f1116b33773b20ba -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>NavBar.jsx – Medium</title><meta name="description" content="You can&#39;t perform that action at this time. You signed in with another tab or window. You signed out in another tab or window. Reload to refresh your session. Reload to refresh your session."><meta name="twitter:widgets:csp" content="on"><meta name="robots" content="noindex"><!--<base target="_blank">--><base href="." target="_blank"><style>body {text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif; font-weight: 400; color: #333332; font-size: 18px; line-height: 1.4; margin: 0; background-color: white; overflow: hidden;}iframe {max-width: 100%;}</style></head><body><style>.gist .gist-file { margin-bottom: 0 !important; }.gist { text-rendering: auto; }</style><script src="./02cf7dd32287b9e6f471f41d18cc1a15.js.Download" charset="utf-8"></script><link rel="stylesheet" href="./gist-embed-8cf56b5c89cac9b5222111d39f3ba7d7.css"><div id="gist96433442" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-navbar-jsx" class="file my-2">
+    
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-jsx  ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip="">
+      <tbody><tr>
+        <td id="file-navbar-jsx-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-navbar-jsx-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">React</span>, { <span class="pl-smi">Component</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>react<span class="pl-pds">'</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-navbar-jsx-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">styled</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>styled-components<span class="pl-pds">'</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-navbar-jsx-LC3" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-navbar-jsx-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">Logo</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>./Logo<span class="pl-pds">'</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-navbar-jsx-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">Links</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>./Links<span class="pl-pds">'</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-navbar-jsx-LC6" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-navbar-jsx-LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-smi">Container</span> <span class="pl-k">=</span> <span class="pl-smi"><span class="pl-smi">styled</span></span><span class="pl-k">.</span><span class="pl-smi">div</span><span class="pl-k">.</span><span class="pl-en">attrs</span>({</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-navbar-jsx-LC8" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1"><span class="pl-s">className</span>:</span> <span class="pl-s"><span class="pl-pds">'</span>container<span class="pl-pds">'</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-navbar-jsx-LC9" class="blob-code blob-code-inner js-file-line">})<span class="pl-k">`</span><span class="pl-k">`</span></td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-navbar-jsx-LC10" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-navbar-jsx-LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-smi">Nav</span> <span class="pl-k">=</span> <span class="pl-smi"><span class="pl-smi">styled</span></span><span class="pl-k">.</span><span class="pl-smi">nav</span><span class="pl-k">.</span><span class="pl-en">attrs</span>({</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-navbar-jsx-LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1"><span class="pl-s">className</span>:</span> <span class="pl-s"><span class="pl-pds">'</span>navbar navbar-expand-lg navbar-dark bg-dark<span class="pl-pds">'</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-navbar-jsx-LC13" class="blob-code blob-code-inner js-file-line">})<span class="pl-k">`</span></td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-navbar-jsx-LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    margin-bottom: 20 px;</span></td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-navbar-jsx-LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-k">`</span></td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-navbar-jsx-LC16" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-navbar-jsx-LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-k">class</span> <span class="pl-en">NavBar</span> <span class="pl-k">extends</span> <span class="pl-smi">Component</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-navbar-jsx-LC18" class="blob-code blob-code-inner js-file-line">    <span class="pl-en"><span class="pl-s">render</span></span>() {</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-navbar-jsx-LC19" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> (</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-navbar-jsx-LC20" class="blob-code blob-code-inner js-file-line">            &lt;<span class="pl-ent">Container</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-navbar-jsx-LC21" class="blob-code blob-code-inner js-file-line">                &lt;<span class="pl-ent">Nav</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-navbar-jsx-LC22" class="blob-code blob-code-inner js-file-line">                    &lt;<span class="pl-ent">Logo</span> /&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-navbar-jsx-LC23" class="blob-code blob-code-inner js-file-line">                    &lt;<span class="pl-ent">Links</span> /&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-navbar-jsx-LC24" class="blob-code blob-code-inner js-file-line">                &lt;/<span class="pl-ent">Nav</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="file-navbar-jsx-LC25" class="blob-code blob-code-inner js-file-line">            &lt;/<span class="pl-ent">Container</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="file-navbar-jsx-LC26" class="blob-code blob-code-inner js-file-line">        )</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="file-navbar-jsx-LC27" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="file-navbar-jsx-LC28" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="file-navbar-jsx-LC29" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-navbar-jsx-L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="file-navbar-jsx-LC30" class="blob-code blob-code-inner js-file-line"><span class="pl-k">export</span> <span class="pl-k">default</span> <span class="pl-smi">NavBar</span></td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/samaronybarros/02cf7dd32287b9e6f471f41d18cc1a15/raw/3044f047cd10e0115798dd0e643e9760a1f553ad/NavBar.jsx" style="float:right">view raw</a>
+        <a href="https://gist.github.com/samaronybarros/02cf7dd32287b9e6f471f41d18cc1a15#file-navbar-jsx">NavBar.jsx</a>
+        hosted with ❤ by <a href="https://github.com/">GitHub</a>
+      </div>
+    </div>
+</div>
+<script>var height = -1; var delayMs = 200; if (document) {document.domain = document.domain;}function notifyResize(height) {height = height ? height : document.documentElement.offsetHeight; var resized = false; if (window.donkey && donkey.resize) {donkey.resize(height);var elements = document.getElementsByClassName("gist-data"); for (var i = 0; i < elements.length; i++) {elements[i].style.overflow = "visible"}resized = true;}if (parent && parent._resizeIframe) {var obj = {iframe: window.frameElement, height: height}; parent._resizeIframe(obj); resized = true;}if (window.location && window.location.hash === "#amp=1" && window.parent && window.parent.postMessage) {window.parent.postMessage({sentinel: "amp", type: "embed-size", height: height}, "*");}if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.resize) {window.webkit.messageHandlers.resize.postMessage(height); resized = true;}return resized;}function maybeResize() {try {if (document.documentElement.offsetHeight != height && notifyResize()) {height = document.documentElement.offsetHeight;}delayMs = Math.min(delayMs * 2, 1000000); setTimeout(maybeResize, delayMs);} catch(error) {console.log('maybeResize error: ', error)}}maybeResize();</script></body></html>

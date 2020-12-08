@@ -1,0 +1,15 @@
+tutorial:
+https://medium.com/swlh/how-to-create-your-first-mern-mongodb-express-js-react-js-and-node-js-stack-7e8b20463e66
+
+MERN:
+Mongo DB
+Express JS
+React JS
+Node JS
+
+package manager: yarn
+node.js
+
+start application: node index.js
+open browser and enter url: localhost:3000
+
