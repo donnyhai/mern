@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\movies-app",
+    "\\movies-app\\server",
+    "\\movies-app\\server\\db"
   ],
-  "SelectedNode": "\\info.txt",
+  "SelectedNode": "\\movies-app\\server\\db\\index.js",
   "PreviewInSolutionExplorer": false
 }
