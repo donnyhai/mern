@@ -1,0 +1,21 @@
+#Build image:
+bash build-image.sh
+
+
+#Start container:
+bash start-container.sh
+#mount-dir is the mounted directory (container starts in /app)
+
+
+#init npm and install 
+bash bin/setup-npm.sh
+
+
+#download and setup mongodb
+bash bin/setup-mongodb.sh
+#add mongodb to PATH
+PATH=${PATH}:app/server/mongodb/bin
+
+
+
+
